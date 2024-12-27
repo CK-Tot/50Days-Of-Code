@@ -1,0 +1,79 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	background: #efefee;
+	font-family: "Open Sans", sans-serif;
+	text-align: center;
+}
+
+h1{
+	font-size: 3rem;
+	margin-top: 2rem;
+}
+
+.dice{
+	font-size: 7rem;
+	margin: 5px;
+	animation-duration: 1s;
+	animation-fill-mode: forwards;
+}
+
+.roll-animation {
+	animation-name: roll;
+}
+
+
+@keyframes roll {
+	0%{
+		transform: rotateY(0deg) rotateX(0deg);
+	}
+	
+
+	100%{
+		transform: rotateY(720deg) rotateX(720deg);
+	}
+}
+
+
+button{
+	background: #47a5c4;
+	color: #fff;
+	padding: 15px 5%;
+	border: none;
+	border-radius: 1rem;
+	cursor: pointer;
+	transition: background 0.5s ease;
+	margin-top: 20px;
+
+}
+
+button:hover{
+	background-color: #1882a6;
+}
+
+ul{
+	list-style: none;
+	max-width: 600px;
+	margin: 2rem auto;
+}
+
+li{
+	font-size: 1.4rem;
+	padding: .5rem;
+	margin: .5rem;
+	background: #f2f2;
+	border-radius: .5rem;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+li span{
+	font-size: 3rem;
+	margin-right: 3rem;
+}
