@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+body{
+    background: #efefef;
+}
+
+.container {
+    background: #B8B3E9;
+    padding: 15px 5%;
+    max-width: 500px;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.4);
+}
+
+h1 {
+     color: #D17B88;
+     line-height: 50px;
+
+}
+
+p {
+    font-weight: 500;
+    font-size: 17px;
+    color: #645f8d;
+    line-height: 1.2;
+    letter-spacing: 1px;
+}
+
+button{
+    background: #C5D86D;
+    padding: 12px 7%;
+    border: none;
+    margin: 20px 8px;
+    border-radius: 10px;
+    color: #645f8d;
+    font-size: 18px;
+    cursor: pointer;
+    transition: transform 0.5s ease;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.4);
+    width: 100%;
+
+
+}
+
+
+
+button:hover{
+    transform: scale(1.1);
+}
+
+.bill, .tip{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    
+}
+
+.bill{
+    margin: 15px;
+}
+
+.bill input, .tip input{
+    padding: 9px 5%;
+    border: none;
+    outline: none;
+    margin-top: 10px;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.4) inset;
+    border-radius: 5px;
+}
+
+label{
+    color: #645f8d;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 2px;
+}
+
+.total{
+    align-self: self-start;
+}
+
+#total{
+    font-size: 20px; 
+    font-weight: 600;
+    margin-top: 20px;
+}
