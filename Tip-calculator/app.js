@@ -10,6 +10,4 @@ const calcTotal = () =>{
     totalEl.innerText = totalVal.toFixed(2);
 }
 
-
-
 btnEl.addEventListener('click', calcTotal)
